@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>ITMD 4/541 - Lab 3 - Abhi Savaliya</title>
+  </head>
+
+  <body>
+    <div class="header"></div>
+    <div class="container">
+      <div class="calName">
+        <p>ITMD 4/541 - Lab 3 - Abhi Savaliya</p>
+        <h1>Tip Calculator</h1>
+      </div>
+
+      <form id="tipForm">
+        <div class="input-group">
+          <label for="billTotal">Bill Total:</label>
+          <input
+            type="text"
+            id="billTotal"
+            placeholder="Enter total bill amount"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="tip">Tip:</label>
+          <input
+            type="range"
+            id="tip"
+            min="0"
+            max="100"
+            value="0"
+            class="slider"
+          />
+        </div>
+        <div class="input-group">
+          <label for="tipPercentage">Tip Percentage:</label>
+          <input type="text" id="tipPercentage" disabled />
+        </div>
+        <div class="input-group">
+          <label for="tipAmount">Tip Amount:</label>
+          <input type="text" id="tipAmount" disabled />
+        </div>
+        <div class="input-group">
+          <label for="totalBillWithTip">Total Bill with Tip:</label>
+          <input type="text" id="totalBillWithTip" disabled />
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

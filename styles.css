@@ -1,0 +1,80 @@
+/* Add your custom styles here */
+.header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.calName {
+  text-align: center;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px 45px;
+  border-radius: 5px;
+  margin-top: 50px;
+  background-color: #cccccc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  flex: 0 0 130px;
+  text-align: end;
+  margin-right: 20px;
+}
+
+input#billTotal {
+  background: #ffffff;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #000000;
+  background: #cccccc;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 11.5px 0;
+}
+
+input[type="range"] {
+  margin: 12px 0;
+}
+input[type="range"]:focus {
+  outline: none;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 6px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #000000;
+  border-radius: 5px;
+  border: 0px solid #010101;
+}
+input[type="range"]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #00001e;
+  height: 15px;
+  width: 15px;
+  border-radius: 15px;
+  background: #000000;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5px;
+}
